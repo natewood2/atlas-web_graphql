@@ -3,7 +3,7 @@ const { graphqlHTTP } = require('express-graphql');
 const schema = require('./schema/schema.js');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://nathan:lkQDWEcIfcbefdjs@cluster0.hw2yk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
